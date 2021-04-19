@@ -1,4 +1,4 @@
-package ExaminationOnly;
+package ExaminationOnly.xiecheng;
 
 import java.util.Scanner;
 class Node{

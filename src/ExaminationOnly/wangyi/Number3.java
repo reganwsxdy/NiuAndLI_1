@@ -1,7 +1,6 @@
-package ExaminationOnly;
+package ExaminationOnly.wangyi;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class Number3 {
     public static void main(String[] args) {

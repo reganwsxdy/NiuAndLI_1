@@ -1,4 +1,4 @@
-package ExaminationOnly;
+package ExaminationOnly.wangyi;
 
 import java.util.Scanner;
 
