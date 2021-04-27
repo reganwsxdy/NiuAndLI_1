@@ -1,4 +1,4 @@
-package test.testThread;
+package test.testLock;
 
 public class Main {
     public static void main(String[] args) {

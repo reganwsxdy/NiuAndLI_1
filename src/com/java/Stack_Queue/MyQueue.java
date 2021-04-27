@@ -1,7 +1,8 @@
 package com.java.Stack_Queue; /**
  * 用栈实现队列
  * 这个方法直接调用了栈，如果需要不使用栈，可以用LinkedList
- * */
+ *
+ **/
 
 import java.util.Stack;
 

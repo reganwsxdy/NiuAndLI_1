@@ -1,4 +1,4 @@
-package test.testThread;
+package test.testLock;
 
 public class Singleton {
     //volatile是为了防止指令重新排序

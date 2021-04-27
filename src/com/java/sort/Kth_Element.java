@@ -26,10 +26,9 @@ public class Kth_Element {
         }
         return priorityQueue.peek();
     }
-    //堆排序实现（大根堆）
+    //堆排序实现（大根堆），循环输出堆顶元素，每次输出后再进行一次调整。
     //原理：大根堆做k-1次删除，此时堆顶元素就是第k大元素
     //实现：1 写一个堆的调整算法，将节点i的位置调整到最终位置；2 生成堆，调用n/2-1次堆调整算法；3 写一个交换算法
-    /**编译有问题，之后再解决*/
     class heap{
         public int findKthLargest_heap(int[] nums, int k){
             int n = nums.length;
@@ -51,6 +50,7 @@ public class Kth_Element {
         public void adjustNode(int[] a, int top, int length){
             int left = top*2+1, right = top*2+2;
             int t = top;
+            //子节点和父节点对比，一次递归中进行一次交换
             if (left<length && a[left] > a[t]){
                 t = left;
             }
